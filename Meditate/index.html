@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" alt="stylesheet">
+    <title>Meditate</title>
+</head>
+<body>
+<div class="app">
+   
+        <div class="center">
+            <p>It's You Time.</p>
+        </div>
+
+
+
+    <div class="player">
+        <audio class="song">
+            <source src="./sounds/rain.mp3" />
+        </audio>
+  
+    <div>
+        
+            <img src="./SVG/play.svg" data-sound="./sounds/rain.mp3" alt="play" class="play" id="sound-button">
+       
+        <h3 class="time-display">0:00</h3> 
+    </div>
+    
+
+    <div class="time-select">
+        <button data-time="120">
+            <img src="./SVG/2minRound.svg">
+            2 Minutes
+        </button>
+        <button data-time="300">
+            <img src="./SVG/5minRound.svg">
+            5 Minutes
+        </button>
+        <button data-time="600">
+            <img src="./SVG/10minRound.svg">
+            10 Minutes
+        </button>
+    </div>
+
+    
+
+    </div>
+
+
+</div>
+
+
+    <script src="./meditation.js"></script>
+</body>
+</html>
